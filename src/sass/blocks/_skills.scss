@@ -1,0 +1,125 @@
+.skills {
+    padding: 120px;
+
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        grid-template-rows: 270px;
+        column-gap: 13px;
+        row-gap: 13px;
+        padding-bottom: 128px;
+        padding-left: 10px;
+
+        &-item {
+            position: relative;
+            border: 1px solid #000;
+            padding: 40px 33px 25px 29px;
+        }
+
+        &-icon {
+            padding-bottom: 20px;
+        }
+
+        &-icon1 {
+            padding-bottom: 45px;
+        }
+
+        &-icon2 {
+            padding-bottom: 38px;
+        }
+
+        &-text {
+            padding-top: 15px;
+            font-size: 12px;
+            line-height: 18px;
+            color: #000000;
+        }
+    }
+
+    &__part {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding-bottom: 38px;
+
+        &-text {
+            font-weight: normal;
+            font-size: 14px;
+            // padding-top: -20px;
+            margin-top: -7px;
+        }
+        &-wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-head {
+            display: block;
+            justify-content: space-around;
+            // gap: ;
+        }
+
+        &-divider {
+            width: 350px;
+            height: 14px;
+            border: none;
+            // background: $main-color;
+            border-radius:4px;
+            margin-left: -25px;
+        }
+        .one {
+            background: $main-color;
+        }
+        &-divider2 {
+            width: 350px;
+            height: 14px;
+            border: none;
+            background: linear-gradient(to right, $main-color 85%, #E8E4DE 15%);
+            border-radius:4px;
+            margin-left: -25px;
+            
+        }
+        &-divider3 {
+            width: 350px;
+            height: 14px;
+            border: none;
+            background: linear-gradient(to right, $main-color 90%, #E8E4DE 10%);
+            border-radius:4px;
+            margin-left: -25px;
+        }
+        &-divider4 {
+            width: 350px;
+            height: 14px;
+            border: none;
+            background: linear-gradient(to right, $main-color 75%, #E8E4DE 25%);
+            border-radius:4px;
+            margin-left: -25px;
+        }
+        &-divider5 {
+            width: 350px;
+            height: 14px;
+            border: none;
+            background: linear-gradient(to right, $main-color 90%, #E8E4DE 10%);
+            border-radius:4px;
+            margin-left: -25px;
+        }
+        &-divider6 {
+            width: 350px;
+            height: 14px;
+            border: none;
+            background: linear-gradient(to right, $main-color 95%, #E8E4DE 5%);
+            border-radius:4px;
+            margin-left: -25px;
+        }
+    }
+
+    &__title {
+        position: relative;
+        padding: 1px 0 0 12px;
+        @include before_circle;
+        margin-left: -30px;
+        transform: translateY(-50%);
+
+    }
+}
